@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inferno — Smoke Criminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="wrap">
+            <a href="index.html" class="brand">
+                <img src="Logotipo-semfundo.png" alt="Smoke Criminal">
+                Smoke Criminal 
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="dust.html">Dust II</a></li>
+                    <li><a href="inferno.html" class="is-active">Inferno</a></li>
+                    <li><a href="mirage.html">Mirage</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-map">
+            <div class="wrap" style="display:flex; align-items:flex-end; justify-content:space-between; flex-wrap:wrap; gap:20px; width:100%;">
+                <div>
+                    <p class="eyebrow">MAPA 02 · DE_INFERNO</p>
+                    <h1>Inferno</h1>
+                </div>
+                <span class="count">6 LINEUPS · LADO TR</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="wrap">
+                <div class="section-head">
+                    <h2>Domínio do Meio e entrada pela Banana</h2>
+
+                </div>
+
+                <div class="smoke-grid">
+
+                    <article class="smoke-card">
+                        <div class="thumb">
+                            <img src="Infero - Smoke Meio - TR 1.png" alt="Pixel da smoke Meio na Inferno" onclick="abrirImagem(this.src)">
+                            <span class="tr-id">TR1</span>
+                            <span class="throw-tag">PADRÃO</span>
+                        </div>
+                        <div class="body">
+                            <h3>Smoke Meio</h3>
+                            <div class="field">
+                                <span class="k">PROPÓSITO</span>
+                                <p class="v">Anula a linha de visão do CT que cravou o Meio principal (Top Meio/Xuxa), permitindo o avanço para o Segundo Meio.</p>
+                            </div>
+                            <div class="field">
+                                <span class="k">POSICIONAMENTO</span>
+                                <p class="v">Trave na quina da porta de saída da Base TR.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="smoke-card">
+                        <div class="thumb">
+                            <img src="Inferno - Smoke NIP - TR2.png" alt="Pixel da smoke NIP na Inferno" onclick="abrirImagem(this.src)">
+                            <span class="tr-id">TR2</span>
+                            <span class="throw-tag">PADRÃO</span>
+                        </div>
+                        <div class="body">
+                            <h3>Smoke NIP</h3>
+                            <div class="field">
+                                <span class="k">PROPÓSITO</span>
+                                <p class="v">Bloqueia a visão do jogador escondido atrás da região da NIP/Cemitério no A, protegendo a entrada via Xuxa/Chuchu.</p>
+                            </div>
+                            <div class="field">
+                                <span class="k">POSICIONAMENTO</span>
+                                <p class="v">Trave no pilar de pedra do Segundo Meio.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="smoke-card">
+                        <div class="thumb">
+                            <img src="Inferno - Smoke Xuxa - TR3 (JUMP TROW + W).png" alt="Pixel da smoke Xuxa na Inferno" onclick="abrirImagem(this.src)">
+                            <span class="tr-id">TR3</span>
+                            <span class="throw-tag">JUMP THROW + W</span>
+                        </div>
+                        <div class="body">
+                            <h3>Smoke Xuxa</h3>
+                            <div class="field">
+                                <span class="k">PROPÓSITO</span>
+                                <p class="v">Fecha a visão do marcador que fica na Xuxa (curva da Banana), permitindo que os TRs tomem o controle do espaço sem trocar tiro direto.</p>
+                            </div>
+                            <div class="field">
+                                <span class="k">POSICIONAMENTO</span>
+                                <p class="v">Encoste no canto da parede de entrada da Banana.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="smoke-card">
+                        <div class="thumb">
+                            <img src="Inferno - Smoke Arreia - TR4.png" alt="Pixel da smoke Areia na Inferno" onclick="abrirImagem(this.src)">
+                            <span class="tr-id">TR4</span>
+                            <span class="throw-tag">PADRÃO</span>
+                        </div>
+                        <div class="body">
+                            <h3>Smoke Areia</h3>
+                            <div class="field">
+                                <span class="k">PROPÓSITO</span>
+                                <p class="v">Desloca e cega o jogador CT posicionado na Areia/Cemitério durante uma entrada no Bomb A via Tapete ou Meio.</p>
+                            </div>
+                            <div class="field">
+                                <span class="k">POSICIONAMENTO</span>
+                                <p class="v">Encoste no canto da parede do Meio da Inferno (próximo ao Segundo Meio).</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="smoke-card">
+                        <div class="thumb">
+                            <img src="Inferno - Smoke Caixão - TR5.png" alt="Pixel da smoke Caixão na Inferno" onclick="abrirImagem(this.src)">
+                            <span class="tr-id">TR5</span>
+                            <span class="throw-tag">PADRÃO</span>
+                        </div>
+                        <div class="body">
+                            <h3>Smoke Caixão</h3>
+                            <div class="field">
+                                <span class="k">PROPÓSITO</span>
+                                <p class="v">Indispensável para o domínio da B; tampa a visão do sniper no Caixão/Fundo da B para os TRs entrarem pela Banana.</p>
+                            </div>
+                            <div class="field">
+                                <span class="k">POSICIONAMENTO</span>
+                                <p class="v">Trave no canto da parede de madeira/carroça na Banana.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="smoke-card">
+                        <div class="thumb">
+                            <img src="Inferno - Smoke CT - TR6.png" alt="Pixel da smoke CT na Inferno" onclick="abrirImagem(this.src)">
+                            <span class="tr-id">TR6</span>
+                            <span class="throw-tag">PADRÃO</span>
+                        </div>
+                        <div class="body">
+                            <h3>Smoke CT</h3>
+                            <div class="field">
+                                <span class="k">PROPÓSITO</span>
+                                <p class="v">Fecha a rota de reforço vinda do respawn CT para o Bomb B, dividindo a defesa na entrada do bomb.</p>
+                            </div>
+                            <div class="field">
+                                <span class="k">POSICIONAMENTO</span>
+                                <p class="v">Alinhe na quina da parede de tijolos da Banana.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <p>&copy; 2026 Smoke Criminal — Pixels de Smokes no TR do CS2</p>
+            <ul class="foot-nav">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close" onclick="fecharImagem()">&times;</span>
+        <img id="lightbox-img" src="" alt="Imagem ampliada da lineup">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

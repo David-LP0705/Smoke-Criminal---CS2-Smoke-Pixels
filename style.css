@@ -519,3 +519,101 @@ img{ max-width: 100%; display: block; }
   .section{ padding: 40px 0; }
   .briefing .stat-block{ border-left: none; border-top: 1px solid var(--border); padding-left: 0; padding-top: 20px; flex-direction: row; flex-wrap: wrap; }
 }
+
+/* ---------- filtro por tipo de arremesso ---------- */
+.filter-bar{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.filter-btn{
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text-muted);
+  background: transparent;
+  border: 1px solid var(--border);
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: color .15s ease, border-color .15s ease, background .15s ease;
+}
+
+.filter-btn:hover{
+  color: var(--text);
+  border-color: var(--gray);
+}
+
+.filter-btn.active{
+  color: var(--text);
+  background: var(--panel);
+  border-color: var(--red);
+}
+
+.filter-btn:focus-visible{
+  outline: 2px solid var(--red);
+  outline-offset: 2px;
+}
+
+.filter-count{
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.smoke-card[hidden]{ display: none; }
+
+/* ---------- botão de alternar tema ---------- */
+.theme-toggle{
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text-muted);
+  background: transparent;
+  border: 1px solid var(--border);
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: color .15s ease, border-color .15s ease;
+}
+
+.theme-toggle:hover{
+  color: var(--text);
+  border-color: var(--red);
+}
+
+.theme-toggle:focus-visible{
+  outline: 2px solid var(--red);
+  outline-offset: 2px;
+}
+
+/* ---------- tema claro ---------- */
+html[data-theme="light"]{
+  --bg: #f4f4f1;
+  --panel: #ffffff;
+  --panel-2: #ebebe7;
+  --border: #cfcfca;
+  --red: #c4121a;
+  --red-dim: #e3a5a8;
+  --gray: #55555a;
+  --text: #1a1a1a;
+  --text-muted: #55555a;
+}
+
+html[data-theme="light"] body{
+  background-image: linear-gradient(180deg, rgba(193,39,45,0.07), transparent 260px);
+}
+
+html[data-theme="light"] .site-header{
+  background: rgba(244,244,241,0.92);
+}
+
+html[data-theme="light"] .smoke-card .tr-id,
+html[data-theme="light"] .smoke-card .throw-tag{
+  background: rgba(255,255,255,0.92);
+}
+
+/* o fundo da imagem ampliada continua escuro nos dois temas */
+html[data-theme="light"] .lightbox-close{
+  color: #e6e6e6;
+}

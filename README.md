@@ -4,8 +4,8 @@ Guia pessoal de lineups de smoke para Counter-Strike 2 (lado Terrorista), organi
 
 ## Links
 
-- **Aplicação publicada (Render):** COLE_AQUI_O_LINK_DO_RENDER
-- **Registro da atividade no Jira:** COLE_AQUI_O_LINK_DA_ISSUE_DO_JIRA
+- **Aplicação publicada (Render):** https://smoke-criminal.onrender.com
+- **Registro da atividade no Jira:** https://davidlsilva0705.atlassian.net/jira/software/projects/SCRUM/boards/1
 - **Repositório:** https://github.com/David-LP0705/Smoke-Criminal---CS2-Smoke-Pixels
 
 ## Melhoria implementada (SCRUM-1): alternância de tema claro/escuro
@@ -39,12 +39,15 @@ HTML5, CSS3 e JavaScript puro (sem frameworks e sem build). Site estático.
 
 ## Deploy
 
-O site é publicado no **Render** como *Static Site*, conectado a este repositório do GitHub (branch `main`), sem comando de build e com o diretório de publicação na raiz do projeto (`.`). A cada novo commit na `main`, o Render atualiza o site automaticamente.
+O site é publicado no **Render** como *Static Site*, conectado a este repositório do GitHub (branch `main`), sem comando de build e com o diretório de publicação na raiz do projeto (`./`). Após o merge na `main`, o deploy é disparado no painel do Render (*Manual Deploy > Deploy latest commit*), que publica a versão mais recente.
 
 ## Fluxo de versionamento
 
-Branch `feature/SCRUM-1-tema-claro-escuro` → commits → Pull Request → merge na `main` → deploy automático no Render.
+Tarefa no Jira (SCRUM-1 e SCRUM-2) → branch `feature/SCRUM-1-tema-claro-escuro` → commit → Pull Request #1 → merge na `main` → deploy no Render.
 
 ## Integrantes
 
-COLE_AQUI_OS_NOMES_DO_GRUPO
+- David Lucas
+- Vinicius Moura
+- Julio Cesar
+- Rafael Silva

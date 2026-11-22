@@ -25,6 +25,12 @@ Arquivos alterados: `tema.js` (novo), `style.css` e as cinco páginas HTML (incl
 
 Nas páginas de mapa, botões permitem filtrar as smokes pelo tipo de arremesso (*Todos*, *Jump Throw*, *Padrão*, *Jump Throw + W*), com um contador de lineups visíveis (ex.: "MOSTRANDO 7 DE 8"). Os botões são criados pelo `script.js` a partir da etiqueta de cada card. Se a página tiver apenas um tipo (caso da Dust II), o filtro não aparece.
 
+## Documentação
+
+A Especificação de Requisitos de Software (ERS) do projeto está em [`docs/ERS_Smoke_Criminal.docx`](docs/ERS_Smoke_Criminal.docx). Ela descreve a finalidade e o escopo do site, 7 requisitos funcionais (RF01–RF07), 8 requisitos não funcionais (RNF01–RNF08), as restrições de design, as interfaces e o catálogo das 19 lineups.
+
+Aplicação publicada no Render: https://smoke-criminal.onrender.com
+
 ## Tecnologias
 
 HTML5, CSS3 e JavaScript puro (sem frameworks e sem build). Site estático.
